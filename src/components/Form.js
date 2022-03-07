@@ -2,7 +2,10 @@ import React from 'react'
 
 export default function Form() {
   return (
-    <div>Form</div>
+    <form>
+      <input type="search" placeholder='Search'></input>
+      <input type="search" placeholder='Search'></input>
+    </form>
   )
 }
 

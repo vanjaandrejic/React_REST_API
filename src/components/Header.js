@@ -1,8 +1,13 @@
 import React from 'react'
 
-export default function Header() {
+export default function Header({ posts }) {
+
+  const numPosts = posts.length;
+
   return (
-    <div>Header</div>
+    <header>
+        <h1>Posts Found: { numPosts }</h1>
+    </header>
   )
 }
 
