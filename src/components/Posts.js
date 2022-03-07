@@ -1,7 +1,18 @@
 import React from 'react'
 
-export default function Posts() {
+export default function Posts({ posts }) {
+
+  var postsShow = posts.map((post) => 
+  <div key={post.id}>
+    <h1>{post.title}</h1>
+    <p>{post.body}</p>
+    <a href='/post'>Read More</a>
+  </div>
+  )
+
   return (
-    <div>Posts</div>
+    <>
+      {postsShow}
+    </>
   )
 }

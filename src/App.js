@@ -32,7 +32,7 @@ export default function App() {
             <Header posts={ posts }/>
             <div>
               <Form/>
-            <Posts/>
+            <Posts posts={ posts } />
             </div>
             </>}/>
 
