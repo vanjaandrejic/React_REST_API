@@ -1,18 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
 * {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 header {
   position: relative;
   width: 100vw;
   height: 30vh;
-  background-color: #184979;
-  color: #ffff;
+  background-color:#184979;
+  color:  #ffff;
 }
 
 header h1 {
@@ -24,11 +24,8 @@ header h1 {
 }
 
 form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   background-color: #F7F7F8;
   width: 100%;
   padding: 10px;
@@ -49,11 +46,9 @@ form input {
 }
 
 .container-posts {
-  display: -ms-grid;
   display: grid;
   gap: 20px 20px;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .post-cont {
@@ -62,8 +57,7 @@ form input {
 }
 
 .post-cont:nth-child(1) {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
+  grid-column-start: 1;
   grid-column-end: 3;
 }
-/*# sourceMappingURL=index.css.map */
+

@@ -30,13 +30,15 @@ export default function App() {
     <Route exact path="/" element={<>
 
             <Header posts={ posts }/>
-            <div>
+            <div className='container'>
               <Form/>
+            <div className='container-posts'>
             <Posts posts={ posts } />
+            </div>
             </div>
             </>}/>
 
-        <Route path='/post' element={<Post/>} />
+        <Route path='/post' element={<Post posts={ posts } />} />
 
         </Routes>
         
