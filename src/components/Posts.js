@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Posts({ posts }) {
 
@@ -6,7 +7,7 @@ export default function Posts({ posts }) {
   <div key={post.id} className="post-cont">
     <h1>{post.title}</h1>
     <p>{post.body}</p>
-    <a href='/post'>Read More</a>
+    <Link to={`/posts/${post.id}`}>Read More</Link>
   </div>
   )
 

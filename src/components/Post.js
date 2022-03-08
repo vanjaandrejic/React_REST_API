@@ -1,7 +1,13 @@
 import React from 'react'
 
 export default function Post( posts ) {
+
+    
+
+
   return (
-    <div>Post</div>
+    <>
+      <h1>Post</h1>
+    </>
   )
 }

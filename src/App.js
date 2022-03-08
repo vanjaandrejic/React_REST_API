@@ -32,7 +32,7 @@ export default function App() {
             <Header posts={ posts }/>
             <div className='container'>
               <Form/>
-            <div className='container-posts'>
+              <div className='container-posts'>
             <Posts posts={ posts } />
             </div>
             </div>
